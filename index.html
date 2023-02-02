@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.css" integrity="sha512-FA9cIbtlP61W0PRtX36P6CGRy0vZs0C2Uw26Q1cMmj3xwhftftymr0sj8/YeezDnRwL9wtWw8ZwtCiTDXlXGjQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/regular.css" integrity="sha512-NtY13r7ytP+tA7+GX3QMxZ9U5Fno7DiyCe30mraDoOJmjc1T+f7VAY4IoK2/4VbWfkxd5ryg5wGAiLxONjh3fw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="carousel">
+        <button class="carousel__button carousel__button--left is-hidden">
+            <i class="fa fa-solid fa-circle-arrow-left"></i> 
+        </button>
+        <div class="carousel__track-container">
+            <ul class="carousel__track">
+                <li class="carousel__slide current-slide">
+                    <img class="carousel__image" src="https://cdn.pixabay.com/photo/2023/01/29/10/09/street-7752940__340.jpg" alt="">
+                </li>
+                <li class="carousel__slide">
+                    <img class="carousel__image" src="https://cdn.pixabay.com/photo/2023/01/19/11/27/bridge-7728877__340.jpg" alt="">
+                </li>
+                <li class="carousel__slide">
+                    <img class="carousel__image" src="https://cdn.pixabay.com/photo/2023/01/29/10/09/street-7752940__340.jpg" alt="">
+                </li>
+                <li class="carousel__slide">
+                    <img class="carousel__image" src="https://cdn.pixabay.com/photo/2023/01/18/07/24/wave-7726187__340.jpg" alt="">
+                </li>
+            </ul>
+        </div>
+        <button class="carousel__button carousel__button--right">
+            <i class="fa fa-solid fa-circle-arrow-right"></i> 
+        </button>
+
+        <div class="carousel__nav">
+            <button class="carousel__indicator current-slide">
+
+            </button>
+            <button class="carousel__indicator">
+
+            </button>
+            <button class="carousel__indicator">
+
+            </button>
+            <button class="carousel__indicator">
+
+            </button>
+        </div>
+    </div>
+
+
+    <script src="style.js"></script>
+</body>
+</html>
